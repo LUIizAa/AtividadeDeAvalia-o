@@ -4,7 +4,9 @@ module.exports=function(){
     return mysql.createConnection({
                 host: 'localhost',
                 user: 'root',
-                password: '1234',
-                database:'portal_noticias'
+                password: 'ifms',
+                database:'portalnoticias'
             }); // tem como função a criação de uma conexão com o banco de dados portal_noticias
 }
+
+//servidor criado para o banco de dados

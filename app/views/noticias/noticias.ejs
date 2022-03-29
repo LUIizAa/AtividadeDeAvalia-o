@@ -14,11 +14,11 @@
             <td>Título</td>
             <td>Notícia</td>
         </tr>
-        <% for (var i=0; i<noticias.length; i++) { %>
+        <% for (var i=0; i<noticias.length; i++) { %> <!--  É um laço de repetição que tem como função colocar todas as notícias que estiverem localizadas no database -->
         <tr>
-            <td><%=noticias[i].id_noticia %></td>
-            <td><%=noticias[i].titulo %></td>
-            <td><%=noticias[i].noticia %></td>
+            <td><%=noticias[i].id_noticia %></td> <!--Tem como função colocar o id da noíticia, o qual está localizado no [i]-->
+            <td><%=noticias[i].titulo %></td> <!--Tem como função colocar o título, o qual está localizado no [i]-->
+            <td><%=noticias[i].noticia %></td> <!--Tem como função colocar o notícia, a qual está localizado no [i]-->
         </tr>
         <% } %>
     </table>
